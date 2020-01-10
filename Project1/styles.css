@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: blue;
+}
+
+a:hover {
+    font:bold;
+    color: red;
+}
+span {
+    color: green;
+    font-weight: 100;  
+}
+
+.boxes {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border: solid blue;
+    border-radius: 2em;
+    width: 30em; 
+}
+
+#boxes1, #boxes2, #boxes3, #boxes4 {
+    background-color: cadetblue;
+    display: inline-block;
+}
+    
+
+
+
