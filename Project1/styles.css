@@ -28,13 +28,55 @@ span {
     border: solid blue;
     border-radius: 2em;
     width: 30em; 
+    position: relative;
 }
 
 #boxes1, #boxes2, #boxes3, #boxes4 {
     background-color: cadetblue;
-    display: inline-block;
+    /*display: inline-block;*/
 }
-    
+
+.thing {
+    position: absolute;
+    height: 50px;
+    width: 50px; 
+    border-radius: 50px;
+    top: 20px;
+    left: 140px;
+    background-color: chartreuse;
+}
+
+h1 {
+    color: red; 
+}
+
+.original {
+    color: yellow; 
+}
+
+.additional {
+    color: orange; 
+}
+
+#rank1 {
+    color: blueviolet;
+}
+
+#rank2 {
+    color: cornflowerblue;
+}
+
+#rank3 {
+    color: burlywood; 
+}
+
+#rank4 {
+    color: chocolate;
+}
+
+ul {
+    color: indigo;
+}
 
 
 
