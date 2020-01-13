@@ -78,5 +78,16 @@ ul {
     color: indigo;
 }
 
+.star {
+    color: bisque
+}
 
+#war {
+    color: burlywood
+}
+
+.border {
+    border: 2px solid;
+    color: black;
+}
 
